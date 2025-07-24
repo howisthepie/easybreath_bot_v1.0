@@ -3,8 +3,8 @@ import httpx
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TELEGRAM_TOKEN = '7755502455:AAE_IJSovKqsc67zc04q_3-QnTE5TJfduoc'
-OPENROUTER_API_KEY = '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'
+TELEGRAM_TOKEN = 'token'
+OPENROUTER_API_KEY = 'api'
 OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions'
 
 logging.basicConfig(level=logging.INFO)
